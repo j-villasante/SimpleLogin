@@ -36,8 +36,7 @@ namespace Login
 
         private void onEnterPressed(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Enter)
-                this.butLogin.PerformClick();
+            if (e.KeyCode == Keys.Enter) this.butLogin.PerformClick();
         }
     }
 }
